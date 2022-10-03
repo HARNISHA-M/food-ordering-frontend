@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+/* login */
+
+.login-page{
+    display: flex;
+    height: 100vh;
+}
+
+.login-background{
+    width: 55%;
+}
+
+.login-background > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.login-form{
+    width: 40%;
+}
+.log-container > img{
+    height: 100px;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+
+form{
+    margin-left: 15%;
+
+}
+form>h1{
+    margin-bottom: 5%;
+    font-size:xx-large;
+}
+.input-fields {
+    margin-bottom: 5%;
+}
+input{
+    padding: 3%;
+    width:45%;
+    border: none;
+    border:1px solid rgb(192,192,192);
+}
+.login-button{
+    padding: 2.5%;
+    width: 45%;
+    background-color: rgb(175,28,40);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.forgot-password ~ a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
